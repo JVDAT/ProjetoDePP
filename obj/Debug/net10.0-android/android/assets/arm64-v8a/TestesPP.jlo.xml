@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc6475f6090d1be20b48" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="TestesPP.MainActivity, TestesPP">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc6475f6090d1be20b48" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="TestesPP.MainApplication, TestesPP" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="TestesPP" module-name="TestesPP.dll">
+    <type assembly-qualified-name="TestesPP.MainActivity, TestesPP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="testespp.MainActivity" java-key="crc6475f6090d1be20b48.MainActivity" managed-key="TestesPP.MainActivity" partial-assembly-qualified-name="TestesPP.MainActivity, TestesPP" />
+    <type assembly-qualified-name="TestesPP.MainApplication, TestesPP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="testespp.MainApplication" java-key="crc6475f6090d1be20b48.MainApplication" managed-key="TestesPP.MainApplication" partial-assembly-qualified-name="TestesPP.MainApplication, TestesPP" />
+  </acw-types>
+</api>
